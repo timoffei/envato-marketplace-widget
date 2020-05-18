@@ -1,0 +1,16 @@
+{
+    "name": "timoffei/envato-marketplace-widget",
+    "description": "Envato marketplace widget",
+    "keywords": ["envato", "marketplace"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Timoffei Bubigo",
+            "email": "olfei@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "minimum-stability": "dev"
+}
