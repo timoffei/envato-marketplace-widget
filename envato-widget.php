@@ -42,7 +42,7 @@ class Envato_Widget extends WP_Widget {
 		
 		$control_ops = array( 'width' => 300, 'height' => 350, 'id_base' => 'envato-widget' );
 		
-		$this->WP_Widget( 'envato-widget', __('Envato Widget', 'Envato Widget'), $widget_ops, $control_ops );
+		parent::__construct( 'envato-widget', __('Envato Widget', 'Envato Widget'), $widget_ops, $control_ops );
 	}
 	
 	function widget( $args, $instance ) {
