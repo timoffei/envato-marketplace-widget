@@ -37,7 +37,7 @@ function envato_widget() {
 
 class Envato_Widget extends WP_Widget {
 
-	function Envato_Widget() {
+	function __construct() {
 		$widget_ops = array( 'classname' => 'example', 'description' => __('A widget that displays recent or popular Envato marketplace items ', 'Envato Widget') );
 		
 		$control_ops = array( 'width' => 300, 'height' => 350, 'id_base' => 'envato-widget' );
